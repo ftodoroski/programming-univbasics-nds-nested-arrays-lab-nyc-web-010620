@@ -24,9 +24,8 @@ def assembled_matrix
 end
 
 def array_literal_matrix
-  # Using Array literal syntax only, build a nested array that uses the data in
-  # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
-  # alphabetically by the first character.
+  array_1 = ENNET_HOUSE.sort
+  array_2 = ENFIELD_TENNIS_ACADEMY.sort
 end
 
 def matrix_lookup(matrix, row, column)
